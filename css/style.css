@@ -1,0 +1,96 @@
+html, body { background-size: cover; color: #434242; font-family: 'Open Sans', sans-serif !important; height: 100%; }
+body { padding-top: 70px; font-size: 15px; line-height: 1.64;}
+
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Open Sans', sans-serif !important; margin-bottom: 20px;}
+h1 { font-weight: 700; margin-bottom: 10px; text-align: center}
+h2,h3 { font-weight: 300; margin-bottom: 30px}
+h2 { font-size: 54px; text-align: center; }
+h3 { font-size: 28px; }
+
+p.lead { text-align: center; }
+p.lead a { text-decoration: underline; }
+p.lead a:hover { text-decoration: none; }
+ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
+hr { border-color: black; margin: 40px 0px; opacity: 0.4; filter:alpha(opacity=20); }
+
+div.container { max-width: 1280px; padding: 40px 180px; }
+
+.jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; }
+.jumbotron .container > * { text-align: center; color: #FFFFFF; }
+.jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
+.jumbotron .container .lead { font-size: 28px; }
+
+.jumbotron .overlay { background-color: black; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; opacity: 0.65; filter:alpha(opacity=75); z-index: 2; }
+
+.jumbotron {
+    position: relative;
+    background: url(https://static.pexels.com/photos/6471/woman-hand-smartphone-desk.jpg) center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+};
+
+/*.jumbotron {
+    background-image: url(https://static.pexels.com/photos/6471/woman-hand-smartphone-desk.jpg) no-repeat center right fixed;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/tech.jpg', sizingMethod='scale')";
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/tech.jpg', sizingMethod='scale');
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-bottom: 300px;
+}*/
+
+
+.align {
+  padding-top: 30px;
+}
+
+.align-left {
+  padding-right: 40px;
+}
+
+nav {
+  background-color: #f2f2f2;
+  margin: -20px;
+  min-height:10px !important
+  color: gray;
+}
+
+.navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  border-radius: 4px;
+}
+
+nav.navbar.navbar-default {
+  padding: -40px !important;
+}
+
+nav.navbar-default {
+  border-color: #eee;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+}
+
+
+@media only screen and (orientation: portrait) and (max-width: 767px)  {
+    .jumbotron {
+      -webkit-background-size: auto 150%;
+      background-attachment: scroll;
+    }
+}
+@media only screen and (orientation: landscape) and (max-width: 767px)  {
+
+    .jumbotron {
+      -webkit-background-size: 150% auto;
+      background-attachment: scroll;
+    }

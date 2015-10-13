@@ -1,8 +1,6 @@
 html, body { background-size: cover; color: #434242; font-family: 'Open Sans', sans-serif !important; height: 100%; }
 body { padding-top: 70px; font-size: 15px; line-height: 1.64;}
 
-
-
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Open Sans', sans-serif !important; margin-bottom: 20px;}
 h1 { font-weight: 700; margin-bottom: 10px; text-align: center}
 h2,h3 { font-weight: 300; margin-bottom: 30px}
@@ -16,6 +14,24 @@ ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
 hr { border-color: black; margin: 40px 0px; opacity: 0.4; filter:alpha(opacity=20); }
 
 div.container { max-width: 1280px; padding: 40px 180px; }
+
+div#profile .fa {
+  padding: 12px;
+  margin-left: -12px;
+}
+
+.awards {
+  vertical-align: middle;
+}
+
+p {
+  padding-top: 5px;
+}
+
+p.stasher-text, p.other-text, h5.other-text {
+  padding-top: 10px;
+}
+
 
 .jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; }
 .jumbotron .container > * { text-align: center; color: #FFFFFF; }
@@ -41,16 +57,47 @@ div.container { max-width: 1280px; padding: 40px 180px; }
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale');
 
   margin-bottom: 0px;
-  padding-top: 229px;
-  padding-bottom: 229px;
+  padding-top: 226px;
+  padding-bottom: 226px;
 }
 
 .align {
-  padding-top: 30px;
+  padding-top: 6px;
+  padding-bottom: 2px;
 }
 
 .align-left {
   padding-right: 40px;
+}
+
+.awards-row .img-responsive {
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.awards-row .col-md-8 {
+  padding-top: 20px;
+}
+
+.awards-row .col-md-8 .nyu {
+  padding-top: 20px;
+}
+
+.awards-row .col-md-8 .lsm {
+  padding-top: 40px;
+}
+
+.awards-row .col-md-8 .njtech {
+  padding-top:-20px;
+}
+
+.awards-row .col-md-8 .forbes {
+  padding-top: 10px;
+}
+
+
+.center {
+  vertical-align: middle;
 }
 
 nav {
@@ -58,6 +105,7 @@ nav {
   margin: -20px;
   min-height:10px !important
   color: gray;
+  padding-left: 200px;
 }
 
 .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
